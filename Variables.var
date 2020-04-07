@@ -1,0 +1,17 @@
+VAR
+	setOutput1 : BOOL := FALSE;
+	setOutput2 : BOOL := FALSE;
+	setOutput3 : BOOL := FALSE;
+	setOutput4 : BOOL := FALSE;
+	setOutput5 : BOOL := FALSE;
+	setOutput6 : BOOL := FALSE;
+	DevLink_REMOTE : DevLink;
+	DevLink_LOCAL : DevLink;
+	DevLink_UNLINK : DevUnlink;
+	FOpen : FileOpen;
+	FCreate : FileCreate;
+	FWrite : FileWrite;
+	FClose : FileClose;
+	FCopy : FileCopy;
+	FDelete : FileDelete;
+END_VAR
