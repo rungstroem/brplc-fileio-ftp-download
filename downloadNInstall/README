@@ -1,0 +1,4 @@
+### README ###
+The main file is the only one needed. 
+It contains a statemachine that connects to a ftp server and checks the B&R PIP install version
+If the install is of greater version, the PIP installer is downloaded and installed
