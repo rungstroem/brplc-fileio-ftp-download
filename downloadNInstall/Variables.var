@@ -1,0 +1,23 @@
+VAR
+	DCopy : DirCopy;
+	setOutput1 : BOOL := FALSE;
+	setOutput2 : BOOL := FALSE;
+	setOutput3 : BOOL := FALSE;
+	setOutput4 : BOOL := FALSE;
+	setOutput5 : BOOL := FALSE;
+	setOutput6 : BOOL := FALSE;
+	DevLink_LOCAL : DevLink;
+	DevLink_REMOTE : DevLink;
+	DevLink_UNLINK : DevUnlink;
+	FClose : FileClose;
+	FCopy : FileCopy;
+	FCreate : FileCreate;
+	FDelete : FileDelete;
+	FOpen : FileOpen;
+	FWrite : FileWrite;
+	FCheckLocal : ArProjectGetInfo;
+	FCheckServer : ArProjectGetPackageInfo;
+	FInstall : ArProjectInstallPackage;
+	FUnzip : zipExtract;
+	DDelete : DirDelete;
+END_VAR
